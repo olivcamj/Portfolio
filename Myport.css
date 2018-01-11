@@ -1,0 +1,17 @@
+Body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+.topnav{
+    overflow: hidden;
+    background-color: lightgoldenrodyellow;
+    border: 10px gold;
+    font-size:16px
+}
+.banner{
+    background-color: white;
+    background-blend-mode:color-burn;
+    border: 2px solid goldenrod; 
+    padding: 25px; 
+    margin: 25px;
+}

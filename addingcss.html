@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset= "utf-8"/>
+  <meta name=viewport content= "width=device-width, intial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Myport.css">
+  <title>My Portfolio</title>
+</head>
+    <body>
+        <div class="topnav" id="myTopnav">
+    <!--does not open up in a new page-->
+            <a href="#home" class="active">Home</a>
+    <!-- make sure that this is the page that should be displayed (or is it the pagehub)-->
+            <a href="https://github.com/olivcamj/Portfolio" target="_blank">GitHub</a>
+    <!--linked In link is incorrect make sure you fix it-->
+            <a href="www.linkedin.com/in/olivia-cameron-ab117a156" target="_blank">LinkedIn</a>
+            <a href="https://drive.google.com/open?id=1wxpImBDo4rrfNzwO1iC8gJYfuFx2xhbkrICrleB7HKY" target="_blank">Resume</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myfunction()">&#9776;</a>
+        </div>
+            <section class="banner">
+            <h2>Olivia J Cameron</h2>
+                <p id="welcome">Welcome!</p>
+            <p>This blog is to simply share my journey while learning to code. I really like learning to code it is extremely fun and exciting. <br/></br/>I can sit down and just pratice for hours as well as read so many books on the topic.</p>
+            </section>
+        <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className =" responsive";
+                    } else {
+                        x.className ="topnav";
+                    }
+                }
+        </script>
+    <footer class="footer-basic-centered">
+        <p class="footer-links">
+        <a href="">Facebook</a>
+        .
+        <a href="">Twitter</a>
+        .
+        <a href="">LinkedIn</a>
+        .
+        <a href="">About</a>
+        .
+        <a href="">Contact</a>
+        </p>
+        <p class="footer-your-name">Olivia Cameron © 2018</p>
+    </footer>
+    </body>
+</html>
