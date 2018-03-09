@@ -1,0 +1,21 @@
+body {
+    background: lightgray;
+}
+
+header{
+    background-blend-mode: luminosity;
+}
+
+p{
+    color: black; 
+}
+
+nav{
+    text-decoration: none;
+    background: SlateBlue
+}
+
+footer{
+    hsla(0,0%,47%,0.2)
+    
+}
